@@ -25,6 +25,12 @@ public class AppRecursivos {
         System.out.println("Fibonacci 4: " + RecursivosNumeros.fibonacci(4));
         System.out.println("Fibonacci 5: " + RecursivosNumeros.fibonacci(5));
 
+        System.out.println("\nSoma n frações de 1/n");
+        System.out.println("Soma de 1: " + RecursivosNumeros.somaFrac(1));
+        System.out.println("Soma de 2: " + RecursivosNumeros.somaFrac(2));
+        System.out.println("Soma de 3: " + RecursivosNumeros.somaFrac(3));
+        System.out.println("Soma de 4: " + RecursivosNumeros.somaFrac(4));
+
         System.out.println("\n\nRecursivos de Strings");
         System.out.println("Inverte String");
         System.out.println("Roberto: " + RecursivosStrings.inverteString("Roberto"));

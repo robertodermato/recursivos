@@ -23,10 +23,15 @@ public class RecursivosNumeros {
         return fibonacci(n-1) + fibonacci(n-2);
     }
 
+    //7 Faça um programa que leia um valor n qualquer. O programa deve escrever a soma dos n  termos 1 + 1/2 + 1/3 + ... 1/n.
+    public static double somaFrac(int n){
+        if (n==1) return 1;
+        return somaFrac(n-1) + 1.0/n;
+    }
 /*
 
 
-        7 Faça um programa que leia um valor n qualquer (inteiro e positivo). O programa deve escrever a soma dos n  termos 1 + 1/2 + 1/3 + ... 1/n. A soma deve ser calculada por um método recursivo.
+
 
         8 Faça um programa que leia dois valores x e y quaisquer (inteiros e positivos). O programa deve escrever o valor de xy. O valor de xy deve ser encontrado a partir de um método recursivo. Não use Math.pow.
 
