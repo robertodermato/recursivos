@@ -42,6 +42,18 @@ public class AppRecursivos {
         System.out.println("Soma de 2: " + RecursivosNumeros.somaFracEsq(2));
         System.out.println("Soma de 3: " + RecursivosNumeros.somaFracEsq(3));
 
+        System.out.println("\nSoma frações de impar");
+        System.out.println("Soma de 1: " + RecursivosNumeros.somaFracImpar(1));
+        System.out.println("Soma de 2: " + RecursivosNumeros.somaFracImpar(2));
+        System.out.println("Soma de 3: " + RecursivosNumeros.somaFracImpar(3));
+        System.out.println("Soma de 4: " + RecursivosNumeros.somaFracImpar(4));
+
+        System.out.println("\nSoma frações de impar pelo método antigo");
+        System.out.println("Soma de 1: " + RecursivosNumeros.somaFracImpar2(1));
+        System.out.println("Soma de 2: " + RecursivosNumeros.somaFracImpar2(2));
+        System.out.println("Soma de 3: " + RecursivosNumeros.somaFracImpar2(3));
+        System.out.println("Soma de 4: " + RecursivosNumeros.somaFracImpar2(4));
+
 
         System.out.println("\n\nRecursivos de Strings");
         System.out.println("Inverte String");
