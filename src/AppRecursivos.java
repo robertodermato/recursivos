@@ -23,6 +23,8 @@ public class AppRecursivos {
         System.out.println("Roberto: " + RecursivosStrings.inverteString("Roberto"));
         System.out.println("Tira vogal");
         System.out.println("Roberto: " + RecursivosStrings.semVogal("Roberto"));
+        System.out.println("Conta A");
+        System.out.println("Bacana tem x a: " + RecursivosStrings.quantA("Bacana"));
 
     }
 

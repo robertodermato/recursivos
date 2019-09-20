@@ -23,7 +23,7 @@ public class RecursivosNumeros {
 
 
 
-            5 Faça um programa que leia uma string qualquer e escreve a quantidade de letras A que a mesma possui. Para isso, crie um método recursivo que receba uma string qualquer e devolve a quantidade de letras A que ela possui.
+
 
             6 Faça um programa que leia um valor n qualquer (inteiro e positivo). O programa deve escrever o n-ésimo termo da série de Fibonacci. Os termos desse série são 1,1,2,3,5,8,13,21,... O n-ésimo termo deve ser calculado por um método recursivo.
 

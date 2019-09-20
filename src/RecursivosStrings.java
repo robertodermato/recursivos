@@ -18,12 +18,25 @@ public class RecursivosStrings {
         return semVog (word, comp-1);
     }
 
-    public static String semVog (String word, int comp){
+    private static String semVog (String word, int comp){
         if (comp<0) return "";
         char letra = word.charAt(comp);
         if(letra!='a' && letra!='e' && letra!= 'i' && letra!='o' && letra!='u') return semVog(word, comp-1) + letra;
         return semVog (word, comp-1);
     }
+
+    //5 Faça um programa que leia uma string qualquer e escreve a quantidade de letras A que a mesma possui.
+    public static int quantA (String word){
+        int comp = word.length();
+        return quantasA (word, comp);
+    }
+
+    private static int quantasA (String word, int comp){
+        if (comp == 0) return 0;
+        if (word.charAt(comp-1) == 'a') return quantasA(word, comp-1) + 1;
+        return quantasA(word, comp-1);
+    }
+
 
 
 }
