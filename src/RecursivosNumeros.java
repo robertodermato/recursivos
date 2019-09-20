@@ -62,16 +62,4 @@ public class RecursivosNumeros {
         return somaFracImpar2(termos - 1) + termos * 1.0 / (termos + (termos - 1));
     }
 
-
-/*
-
-
-
-
-
-
-        12 Faça um programa que leia uma string e verifique se ela é palíndrome. Palíndrome são aquelas palavras podem ser lidas tanto da esquerda para direita ou da direita para esquerda. Exemplo: arara. Crie um método recursivo para verificar se a string é palíndrome..
-*/
-
-
 }

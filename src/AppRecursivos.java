@@ -62,6 +62,13 @@ public class AppRecursivos {
         System.out.println("Roberto: " + RecursivosStrings.semVogal("Roberto"));
         System.out.println("Conta A");
         System.out.println("Bacana tem x a: " + RecursivosStrings.quantA("Bacana"));
+        System.out.println("Testa se é palíndromo");
+        System.out.println("Bacana é palíndromo? " + RecursivosStrings.isPalindrome("Bacana"));
+        System.out.println("amma é palíndromo? " + RecursivosStrings.isPalindrome("amma"));
+        System.out.println("arara é palíndromo? " + RecursivosStrings.isPalindrome("arara"));
+        System.out.println("a é palíndromo? " + RecursivosStrings.isPalindrome("a"));
+        System.out.println("ananana é palíndromo? " + RecursivosStrings.isPalindrome("ananana"));
+
 
     }
 

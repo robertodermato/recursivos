@@ -37,6 +37,15 @@ public class RecursivosStrings {
         return quantasA(word, comp-1);
     }
 
+    //12 Faça um programa que leia uma string e verifique se ela é palíndrome.
+    public static boolean isPalindrome(String word){
+        return isPalindromeP(word, word.length(), 0);
+    }
 
+    private static boolean isPalindromeP(String word, int comp, int inicio){
+        if (comp <= inicio) return true;
+        if (word.charAt(comp-1)==word.charAt(inicio)) return isPalindromeP(word, comp-1, inicio+1) && true;
+        return false;
+    }
 
 }
