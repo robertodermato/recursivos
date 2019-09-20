@@ -48,16 +48,28 @@ public class RecursivosStrings {
         return false;
     }
 
-    //antigo
+    //antigo do vini
     public static boolean palindromo (String palavra){
         String palavral = palavra.toLowerCase();
-        return palindromoR (palavral, palavral.length()-1);
+        return palindromoR (palavral, (palavral.length()-1));
     }
 
     private static boolean palindromoR (String palavra, int comp){
         int compInvertido = (palavra.length()-1)-comp;
         if ((compInvertido==comp || compInvertido == comp-1) && (palavra.charAt(comp)==palavra.charAt(compInvertido))) return true;
         return palindromoR (palavra, comp-1) && (palavra.charAt(comp) == palavra.charAt(compInvertido));
+    }
+
+    //vini otimizado
+    public static boolean palindromo2 (String palavra){
+        String palavral = palavra.toLowerCase();
+        return palindromoR2 (palavral, palavral.length()-1);
+    }
+
+    private static boolean palindromoR2 (String palavra, int comp){
+        int compInvertido = (palavra.length()-1)-comp;
+        if ((compInvertido==comp || compInvertido == comp-1)) return true;
+        return palindromoR2 (palavra, comp-1) && (palavra.charAt(comp) == palavra.charAt(compInvertido));
     }
 
 
