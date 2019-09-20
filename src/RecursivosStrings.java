@@ -11,4 +11,19 @@ public class RecursivosStrings {
         return word.charAt(comp) + inverte(word, comp-1);
     }
 
+     //4 Faça um programa que leia uma string qualquer e a escreva sem as suas vogais.
+
+    public static String semVogal (String word){
+        int comp = word.length();
+        return semVog (word, comp-1);
+    }
+
+    public static String semVog (String word, int comp){
+        if (comp<0) return "";
+        char letra = word.charAt(comp);
+        if(letra!='a' && letra!='e' && letra!= 'i' && letra!='o' && letra!='u') return semVog(word, comp-1) + letra;
+        return semVog (word, comp-1);
+    }
+
+
 }

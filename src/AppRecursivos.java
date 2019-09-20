@@ -18,6 +18,12 @@ public class AppRecursivos {
         System.out.println("somatorio de 3: " + RecursivosNumeros.somatorio(3));
         System.out.println("somatorio de 4: " + RecursivosNumeros.somatorio(4));
 
+        System.out.println("\n\nRecursivos de Strings");
+        System.out.println("Inverte String");
+        System.out.println("Roberto: " + RecursivosStrings.inverteString("Roberto"));
+        System.out.println("Tira vogal");
+        System.out.println("Roberto: " + RecursivosStrings.semVogal("Roberto"));
+
     }
 
 }

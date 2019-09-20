@@ -21,7 +21,7 @@ public class RecursivosNumeros {
 /*
 
 
-            4 Faça um programa que leia uma string qualquer e a escreva sem as suas vogais. Para isso, crie um método recursivo que receba uma string qualquer e a devolve sem as vogais.
+
 
             5 Faça um programa que leia uma string qualquer e escreve a quantidade de letras A que a mesma possui. Para isso, crie um método recursivo que receba uma string qualquer e devolve a quantidade de letras A que ela possui.
 
