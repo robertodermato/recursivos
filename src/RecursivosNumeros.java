@@ -43,10 +43,16 @@ public class RecursivosNumeros {
         return potencia (n1, n2-1)*n1;
     }
 
+    //10 Faça um programa que leia um valor n qualquer e escreva a soma dos n  termos 2 + 6/2 + 10/3 + 14/4 (numerador é 2 + 4*(n-1)
+    public static double somaFracEsq (int n){
+        if (n==1) return 2;
+        return somaFracEsq(n-1)+ (2+4.0*(n-1))/n;
+    }
+
 /*
 
 
-        10 Faça um programa que leia um valor n qualquer (inteiro e positivo). O programa deve escrever a soma dos n  termos 2 + 6/2 + 10/3 + 14/4... . A soma deve ser calculada por um método recursivo.
+
 
         11 Escreva um programa que lê um valor n inteiro e positivo, calcula e exibe a seguinte soma: S = 1 + 2/3 + 3/5 ... O cálculo de S deve ser feito por meio de um método recursivo.
 

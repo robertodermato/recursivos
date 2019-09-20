@@ -37,6 +37,12 @@ public class AppRecursivos {
         System.out.println("\nPotência");
         System.out.println("Potência de 3 na 3: " + RecursivosNumeros.potencia(3,3));
 
+        System.out.println("\nSoma de n frações esquisitas");
+        System.out.println("Soma de 1: " + RecursivosNumeros.somaFracEsq(1));
+        System.out.println("Soma de 2: " + RecursivosNumeros.somaFracEsq(2));
+        System.out.println("Soma de 3: " + RecursivosNumeros.somaFracEsq(3));
+
+
         System.out.println("\n\nRecursivos de Strings");
         System.out.println("Inverte String");
         System.out.println("Roberto: " + RecursivosStrings.inverteString("Roberto"));
