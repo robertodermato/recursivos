@@ -31,6 +31,9 @@ public class AppRecursivos {
         System.out.println("Soma de 3: " + RecursivosNumeros.somaFrac(3));
         System.out.println("Soma de 4: " + RecursivosNumeros.somaFrac(4));
 
+        System.out.println("\nMultiplica");
+        System.out.println("Multiplica 5 x 6: " + RecursivosNumeros.multiplica(5,6));
+
         System.out.println("\n\nRecursivos de Strings");
         System.out.println("Inverte String");
         System.out.println("Roberto: " + RecursivosStrings.inverteString("Roberto"));

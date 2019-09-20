@@ -28,13 +28,14 @@ public class RecursivosNumeros {
         if (n==1) return 1;
         return somaFrac(n-1) + 1.0/n;
     }
+
+    // 8 Faça um programa que leia dois valores x e y quaisquer e escreva o valor de x*y.
+    public static double multiplica (int n1, int n2){
+        if (n1==0) return 0;
+        return multiplica (n1-1, n2)+n2;
+    }
+
 /*
-
-
-
-
-        8 Faça um programa que leia dois valores x e y quaisquer (inteiros e positivos). O programa deve escrever o valor de xy. O valor de xy deve ser encontrado a partir de um método recursivo. Não use Math.pow.
-
         9 Faça um programa que leia dois valores x e y quaisquer (inteiros e positivos). O programa deve escrever o produto de x por y. O produto deve ser encontrado a partir de um método recursivo. Não pode usar o operador de multiplicação.
 
         10 Faça um programa que leia um valor n qualquer (inteiro e positivo). O programa deve escrever a soma dos n  termos 2 + 6/2 + 10/3 + 14/4... . A soma deve ser calculada por um método recursivo.
