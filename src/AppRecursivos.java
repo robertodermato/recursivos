@@ -34,6 +34,9 @@ public class AppRecursivos {
         System.out.println("\nMultiplica");
         System.out.println("Multiplica 5 x 6: " + RecursivosNumeros.multiplica(5,6));
 
+        System.out.println("\nPotência");
+        System.out.println("Potência de 3 na 3: " + RecursivosNumeros.potencia(3,3));
+
         System.out.println("\n\nRecursivos de Strings");
         System.out.println("Inverte String");
         System.out.println("Roberto: " + RecursivosStrings.inverteString("Roberto"));

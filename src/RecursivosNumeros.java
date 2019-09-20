@@ -35,8 +35,16 @@ public class RecursivosNumeros {
         return multiplica (n1-1, n2)+n2;
     }
 
+    //9 Faça um programa que leia dois valores x e y quaisquer e escreva x ^ y.
+    public static int potencia (int n1, int n2){
+        if (n1==0 && n2==0) return -1;
+        if (n1==0) return 0;
+        if (n2==0) return 1;
+        return potencia (n1, n2-1)*n1;
+    }
+
 /*
-        9 Faça um programa que leia dois valores x e y quaisquer (inteiros e positivos). O programa deve escrever o produto de x por y. O produto deve ser encontrado a partir de um método recursivo. Não pode usar o operador de multiplicação.
+
 
         10 Faça um programa que leia um valor n qualquer (inteiro e positivo). O programa deve escrever a soma dos n  termos 2 + 6/2 + 10/3 + 14/4... . A soma deve ser calculada por um método recursivo.
 
