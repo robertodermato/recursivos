@@ -16,16 +16,15 @@ public class RecursivosNumeros {
         return somatorio(n - 1) + n;
     }
 
-
+     //6 Faça um programa escreva o n-ésimo termo da série de Fibonacci.
+    public static int fibonacci (int n){
+        if (n==1) return 1;
+        if (n==2) return 1;
+        return fibonacci(n-1) + fibonacci(n-2);
+    }
 
 /*
 
-
-
-
-
-
-            6 Faça um programa que leia um valor n qualquer (inteiro e positivo). O programa deve escrever o n-ésimo termo da série de Fibonacci. Os termos desse série são 1,1,2,3,5,8,13,21,... O n-ésimo termo deve ser calculado por um método recursivo.
 
         7 Faça um programa que leia um valor n qualquer (inteiro e positivo). O programa deve escrever a soma dos n  termos 1 + 1/2 + 1/3 + ... 1/n. A soma deve ser calculada por um método recursivo.
 

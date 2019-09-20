@@ -18,6 +18,13 @@ public class AppRecursivos {
         System.out.println("somatorio de 3: " + RecursivosNumeros.somatorio(3));
         System.out.println("somatorio de 4: " + RecursivosNumeros.somatorio(4));
 
+        System.out.println("\nFibonacci");
+        System.out.println("Fibonacci 1: " + RecursivosNumeros.fibonacci(1));
+        System.out.println("Fibonacci 2: " + RecursivosNumeros.fibonacci(2));
+        System.out.println("Fibonacci 3: " + RecursivosNumeros.fibonacci(3));
+        System.out.println("Fibonacci 4: " + RecursivosNumeros.fibonacci(4));
+        System.out.println("Fibonacci 5: " + RecursivosNumeros.fibonacci(5));
+
         System.out.println("\n\nRecursivos de Strings");
         System.out.println("Inverte String");
         System.out.println("Roberto: " + RecursivosStrings.inverteString("Roberto"));
