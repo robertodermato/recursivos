@@ -19,7 +19,7 @@ public class RecursivosNumeros {
 
 
 /*
-            3 Faça um programa que leia uma string qualquer e a escreva invertida. Para isso, crie um método recursivo que receba uma string qualquer e a devolve invertida.
+
 
             4 Faça um programa que leia uma string qualquer e a escreva sem as suas vogais. Para isso, crie um método recursivo que receba uma string qualquer e a devolve sem as vogais.
 
