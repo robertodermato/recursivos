@@ -48,4 +48,17 @@ public class RecursivosStrings {
         return false;
     }
 
+    //antigo
+    public static boolean palindromo (String palavra){
+        String palavral = palavra.toLowerCase();
+        return palindromoR (palavral, palavral.length()-1);
+    }
+
+    private static boolean palindromoR (String palavra, int comp){
+        int compInvertido = (palavra.length()-1)-comp;
+        if ((compInvertido==comp || compInvertido == comp-1) && (palavra.charAt(comp)==palavra.charAt(compInvertido))) return true;
+        return palindromoR (palavra, comp-1) && (palavra.charAt(comp) == palavra.charAt(compInvertido));
+    }
+
+
 }
